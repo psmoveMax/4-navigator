@@ -1,11 +1,11 @@
-const x1 = 3;
-const y1 = 7;
-const x2 = 5;
-const y2 = 2;
+const positionLat  = 3;
+const positionLong = 7;
+const addressLat  = 5;
+const addressLong  = 2;
 
 
-const raznost1 = x2 - x1;
-const raznost2 = y1 - y2;
+const raznost1 = addressLat - positionLat;
+const raznost2 = positionLong - addressLong;
 
 
 const quadroRaznost1 = raznost1**2;

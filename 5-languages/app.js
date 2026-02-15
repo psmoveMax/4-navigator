@@ -2,8 +2,11 @@ console.log('Переводчик 1.0');
 
 console.log('Выберите ваш язык');
 
-let userLanguage = 'jp';
-let prompt = 'Здравствуйте';
+let userLanguage = prompt('Введите код языка (ru, en, de, jp):');
+
+if (userLanguage) {
+    userLanguage = userLanguage.toLowerCase();
+}
 switch (userLanguage) {
     case 'de':
         console.log('Guten Tag');

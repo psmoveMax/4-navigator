@@ -2,19 +2,19 @@ console.log('Переводчик 1.0');
 
 console.log('Выберите ваш язык');
 
-let userLanguage = '';
+let userLanguage = 'jp';
 let prompt = 'Здравствуйте';
 switch (userLanguage) {
-    case 'DE':
+    case 'de':
         console.log('Guten Tag');
         break;
-    case 'RU':
+    case 'ru':
         console.log('Здравствуйте');
         break;
-    case 'EN':
+    case 'en':
         console.log('Hello');
         break;
-    case 'JP':
+    case 'jp':
         console.log('Konnichiwa');
         break;
     default:

@@ -2,7 +2,7 @@ console.log('Переводчик 1.0');
 
 console.log('Выберите ваш язык');
 
-let userLanguage = prompt('Введите код языка (ru, en, de, jp):');
+let userLanguage = process.argv[2];
 
 if (userLanguage) {
     userLanguage = userLanguage.toLowerCase();
